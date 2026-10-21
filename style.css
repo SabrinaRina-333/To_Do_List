@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Condensed:ital,wght@0,400..700;1,400..700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Libre Caslon Condensed", serif;
+}
+
+body{
+    background-color: rgb(243, 105, 243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.continer{
+    background-color: white;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+}
+.tache{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.tache input{
+  width: 90%;
+  border-radius: 10px 0px 0px 10px;
+  border: 1px solid black;
+  height: 25px;
+}
+.tache button{
+    background-color: rgb(205, 173, 236);
+    border: 0px;
+    padding: 4px;
+    border-radius: 0px 10px 10px 0px;
+    height: 26px;
+    cursor: pointer;
+}
+.paragraphe-style{
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid black;
+  height: auto;
+  background-color: rgb(238, 223, 244);
+  margin-top: 10px;
+  word-break: break-all;
+}
+.click_par{
+    background-color: rgb(241, 167, 167);
+    text-decoration: line-through;
+}
